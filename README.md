@@ -36,6 +36,15 @@ Once you have your app, you can start the app using:
 
 This will bring up a page with a QR Code to scan. Making sure you have the Expo app on your phone, you can scan this to bring up a live-update feed of the app.
 
+You can also run:
+
+    npm run ios
+    
+Or:
+    npm run android
+
+To run the app on an ios simulator (Mac only) or android simulator.
+
 # Code Commit Process
 This section will detail the process you can use to commit code. Follow this process every time you want to contribute to the project.
 
