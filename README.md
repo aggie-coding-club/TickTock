@@ -18,7 +18,7 @@ Then, type the following to create an empty Git repository:
 
 Then, to link to the remote repository (located on this GitHub):
 
-    git remote add origin https://github.com/aggie-coding-club/Aggie-Ticket-Assistant.git
+    git remote add origin https://github.com/aggie-coding-club/TickTock.git
 
 You can then get the latest version of the application by running this command:
 
