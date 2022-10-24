@@ -69,4 +69,4 @@ Once you've done that, visit GitHub and create a pull request. You can learn mor
 Once you're done, you can switch back to the main branch and delete the feature branch you were using. You can do it using the following 2 commands:
 
     git checkout main
-    git branch -D ilham A
+    git branch -D ilhamA
