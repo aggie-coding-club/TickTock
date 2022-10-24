@@ -54,19 +54,19 @@ Start by getting the latest version of the application. Making sure you're in th
 
     git pull origin main
 
-Then, you want to create a new branch. You are going to work off this branch exclusively for your code. For ease of naming, please name the branch **feature-*your initials***. So, my name being Ilham Aryawan, I would run:
+Then, you want to create a new branch. You are going to work off this branch exclusively for your code. For ease of naming, please name the branch **Your first name and last initial**. So, my name being Ilham Aryawan, I would run:
 
-    git checkout -b feature-ia
+    git checkout -b ilhamA
 
 Once you're done, edit and commit your code as you please.
 
 When you finish, push your code to the main repository using this command:
 
-    git push origin feature-ia
+    git push origin ilhamA
 
 Once you've done that, visit GitHub and create a pull request. You can learn more about pull requests here: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 Once you're done, you can switch back to the main branch and delete the feature branch you were using. You can do it using the following 2 commands:
 
     git checkout main
-    git branch -D feature-jk
+    git branch -D ilham A
