@@ -20,9 +20,9 @@ Then, to link to the remote repository (located on this GitHub):
 
     git remote add origin https://github.com/aggie-coding-club/TickTock.git
 
-You can then get the latest version of the application by running this command:
+Then, clone the files into your directory by running this command:
 
-    git pull origin main
+    git clone https://github.com/aggie-coding-club/TickTock.git
 
 Once that's done, you need to create all the packages required for Expo. Making sure you have Node installed (refer to the [Setup](#Setup) section), run the following command:
 
