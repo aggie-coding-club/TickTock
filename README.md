@@ -32,19 +32,13 @@ Once that's done, you need to create all the packages required for Expo. Making 
 # Usage
 Once you have your app, you can start the app using:
 
-    expo start
-
-This will bring up a page with a QR Code to scan. Making sure you have the Expo app on your phone, you can scan this to bring up a live-update feed of the app.
-
-You can also run:
-
     npm run ios
     
 Or:
 
     npm run android
 
-To run the app on an ios simulator (Mac only) or android simulator.
+To run the app on an ios simulator (Mac only) or android simulator. This will also bring up a page with a QR Code to scan. Make sure you have the Expo app on your phone, you can scan this to bring up a live-update feed of the app.
 
 # Code Commit Process
 This section will detail the process you can use to commit code (Add code to the GitHub). Follow this process every time you want to contribute to the project.
