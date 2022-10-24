@@ -41,6 +41,7 @@ You can also run:
     npm run ios
     
 Or:
+
     npm run android
 
 To run the app on an ios simulator (Mac only) or android simulator.
