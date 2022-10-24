@@ -52,7 +52,15 @@ Then, you want to create a new branch. You are going to work off this branch exc
 
     git checkout -b ilhamA
 
-Once you're done, edit and commit your code as you please.
+Once you're done, edit your code as you please.
+
+Once you're ready to add your code to the GitHub, add the files you want to change/add to the GitHub using:
+
+    git add <filename>
+
+Then, commit (initiate) your file by using:
+
+    git commit -m "(Type any message)"
 
 When you finish, push your code to the main repository using this command:
 
