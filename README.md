@@ -46,7 +46,7 @@ This section will detail the process you can use to commit code (Add code to the
 
 Start by getting the latest version of the application. Making sure you're in the directory of your project, run this command:
 
-    git pull origin main
+    git merge main
 
 Then, you want to create a new branch. You are going to work off this branch exclusively for your code. For ease of naming, please name the branch ***Your first name and last initial***. So, my name being Ilham Aryawan, I would run:
 
