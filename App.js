@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>TickTock</Text>
-      <Text>Hello!</Text>
+      <Text>Hello World1!</Text>
       <StatusBar style="auto" />
     </View>
   );
