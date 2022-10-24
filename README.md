@@ -3,14 +3,14 @@
 This section contains information regarding installations and basic project setup.
 
 ## Installations
-This project uses Expo to run React Native apps. If you don't have Expo and its required dependencies installed, you can find an installation guide here: [https://docs.expo.dev/get-started/installation/](https://docs.expo.dev/get-started/installation/).
+This project uses React Native. If you don't have React Native and its required dependencies installed, you can find an installation guide here: [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup).
 
 You will also need Git to work with code commits. You can use the installation guide found here: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 To run commands, you can use a terminal. Git Bash, Windows PowerShell, and the native Terminal applications for both Mac and Linux work for this.
 
 ## Initial Repo
-First, create a new directory that will contain all of your code. You can create this anywhere you like.
+First, create a new directory (folder) that will contain all of your code. You can create this anywhere you like.
 
 Then, type the following to create an empty Git repository:
 
