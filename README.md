@@ -47,22 +47,22 @@ Or:
 To run the app on an ios simulator (Mac only) or android simulator.
 
 # Code Commit Process
-This section will detail the process you can use to commit code. Follow this process every time you want to contribute to the project.
+This section will detail the process you can use to commit code (Add code to the GitHub). Follow this process every time you want to contribute to the project.
 
 
 Start by getting the latest version of the application. Making sure you're in the directory of your project, run this command:
 
     git pull origin main
 
-Then, you want to create a new branch. You are going to work off this branch exclusively for your code. For ease of naming, please name the branch **feature-*your initials***. So, my name being Jad Khalili, I would run:
+Then, you want to create a new branch. You are going to work off this branch exclusively for your code. For ease of naming, please name the branch **feature-*your initials***. So, my name being Ilham Aryawan, I would run:
 
-    git checkout -b feature-jk
+    git checkout -b feature-ia
 
 Once you're done, edit and commit your code as you please.
 
 When you finish, push your code to the main repository using this command:
 
-    git push origin feature-jk
+    git push origin feature-ia
 
 Once you've done that, visit GitHub and create a pull request. You can learn more about pull requests here: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
