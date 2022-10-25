@@ -43,6 +43,8 @@ To run the app on an ios simulator (Mac only) or android simulator. This will al
 # Code Commit Process
 This section will detail the process you can use to commit code (Add code to the GitHub). Follow this process every time you want to contribute to the project.
 
+Make sure you have a GitHub classic personal access token and check all permissions. 
+Information can be found here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 Start by getting the latest version of the application. Making sure you're in the directory of your project, run this command:
 
@@ -65,6 +67,8 @@ Then, commit (initiate) your file by using:
 When you finish, push your code to the main repository using this command:
 
     git push origin ilhamA
+
+It will ask for a username and password. Enter your GitHub username and your personal access token as the password.
 
 Once you've done that, visit GitHub and create a pull request. You can learn more about pull requests here: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
