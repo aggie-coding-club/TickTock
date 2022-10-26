@@ -3,7 +3,8 @@
 This section contains information regarding installations and basic project setup.
 
 ## Installations
-This project uses React Native. If you don't have React Native and its required dependencies installed, you can download Node.js here: https://nodejs.org/en/download/ and find an installation guide here and follow the "Expo Go Quickstart": [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup).
+This project uses React Native. If you don't have React Native and its required dependencies installed, you can download Node.js here: https://nodejs.org/en/download/ 
+and find an installation guide here and follow the "Expo Go Quickstart": [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup).
 
 You will also need Git to work with code commits. You can use the installation guide found here: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
