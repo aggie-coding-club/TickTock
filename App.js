@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 function ChatStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name='Chat' component={Chat} />
+      <Stack.Screen name='TickTock' component={Chat} />
     </Stack.Navigator>
   );
 }
