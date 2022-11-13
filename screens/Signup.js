@@ -49,8 +49,8 @@ export default function Signup({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    paddingTop: 50,
+    backgroundColor: '#A0F5A0',
+    paddingTop: 100,
     paddingHorizontal: 12
   },
   title: {

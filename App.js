@@ -3,13 +3,14 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { View, ActivityIndicator } from 'react-native';
 import { onAuthStateChanged } from 'firebase/auth';
+
 import { auth } from './config/firebase';
+
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Chat from './screens/Chat';
 
 const Stack = createStackNavigator();
-const AuthenticatedUserContext = createContext({});
 
 function ChatStack() {
   return (
@@ -19,13 +20,17 @@ function ChatStack() {
   );
 }
 
- function AuthStack() {
-  return(
+function AuthStack() {
+  return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-    <Stack.Screen name='Login' component={Login} />
-    <Stack.Screen name='Signup' component={Signup} />
-  </Stack.Navigator>);
- }
+      <Stack.Screen name='Login' component={Login} />
+      <Stack.Screen name='Signup' component={Signup} />
+    </Stack.Navigator>
+  );
+}
+
+const AuthenticatedUserContext = createContext({});
+
 const AuthenticatedUserProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
@@ -35,11 +40,12 @@ const AuthenticatedUserProvider = ({ children }) => {
     </AuthenticatedUserContext.Provider>
   );
 };
+
 function RootNavigator() {
   const { user, setUser } = useContext(AuthenticatedUserContext);
   const [isLoading, setIsLoading] = useState(true);
 
-   useEffect(() => {
+  useEffect(() => {
     // onAuthStateChanged returns an unsubscriber
     const unsubscribeAuth = onAuthStateChanged(
       auth,
@@ -52,7 +58,6 @@ function RootNavigator() {
     // unsubscribe auth listener on unmount
     return unsubscribeAuth;
   }, [user]);
-
 
   if (isLoading) {
     return (
@@ -68,9 +73,11 @@ function RootNavigator() {
     </NavigationContainer>
   );
 }
+
 export default function App() {
-  return (<AuthenticatedUserProvider>
-    <RootNavigator />
-  </AuthenticatedUserProvider>
-);
+  return (
+    <AuthenticatedUserProvider>
+      <RootNavigator />
+    </AuthenticatedUserProvider>
+  );
 }
