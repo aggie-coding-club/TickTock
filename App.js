@@ -5,7 +5,7 @@ import { View, ActivityIndicator } from 'react-native';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './config/firebase';
 import Login from './screens/Login';
- //import Signup from './screens/Signup';
+import Signup from './screens/Signup';
 import Chat from './screens/Chat';
 
 const Stack = createStackNavigator();
@@ -23,6 +23,7 @@ function ChatStack() {
   return(
     <Stack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name='Login' component={Login} />
+    <Stack.Screen name='Signup' component={Signup} />
   </Stack.Navigator>);
  }
 const AuthenticatedUserProvider = ({ children }) => {
